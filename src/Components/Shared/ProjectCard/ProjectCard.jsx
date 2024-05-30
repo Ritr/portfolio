@@ -17,7 +17,7 @@ const ProjectCard = ({
       data-aos-duration="1000"
     >
       <div onClick={() => openLightbox(index)} className="thumb mb-30 imgc">
-        <img style={{maxWidth:"80vw"}} src={image} alt="img" />
+        <img src={image} alt="img" />
       </div>
       <div className="content d-flex align-items-center justify-content-between gap-2">
         <Link to={navigate} className="left__cont">

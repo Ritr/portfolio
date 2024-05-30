@@ -9,6 +9,7 @@ import {
 
 import { Link } from "react-router-dom";
 import personalInfoThumb from "../../assets/img/about/personal-infothumb.png";
+import logo from "../../assets/img/logo/logo.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -55,7 +56,7 @@ const AboutMe = ({ isTabActive }) => {
               data-aos="zoom-in"
               data-aos-duration="500"
             >
-              <img src={personalInfoThumb} alt="img" />
+              <img src={logo} alt="img" />
             </div>
           </div>
           <div className="col-lg-7">

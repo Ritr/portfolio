@@ -39,6 +39,13 @@
       }
     }
   }
+  @include breakpoint(lg) {
+    .thumb {
+      img {
+        height: 400px;
+      }
+    }
+  }
   @include breakpoint(max-xxl) {
     .content {
       .left__cont {

@@ -84,7 +84,7 @@ const Banner = () => {
               </div> */}
             </div>
           </div>
-          <div className="col-lg-4">
+          {/* <div className="col-lg-4">
             <div
               className={`banner__thumb  ${
                 position  ? "right_up_animat" : "right_up"
@@ -93,7 +93,7 @@ const Banner = () => {
             >
               <img src={bannerMan} alt="man-img" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="banner__leftinfo">

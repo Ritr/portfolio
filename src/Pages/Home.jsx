@@ -27,10 +27,11 @@ const Home = () => {
     <>
       {isFetching && <Preloader />}
       {/* <MarqueeWapper direction="left" images={images} /> */}
+      
+      <Projects />
       <About />
       {/* <MarqueeWapper direction="right" images={images2} /> */}
-      <Awards />
-      <Projects />
+      {/* <Awards /> */}
       <Metting />
       <Services isHeading={true} />
       <WorkeProcess />
