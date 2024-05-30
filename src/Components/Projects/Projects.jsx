@@ -25,7 +25,7 @@ const Projects = () => {
 
         <div className={`project__wrapone`}>
           {projectList.map(({ heading, id, image, subHeading }, index) => (
-            <a href="/design-code" key={id}>
+            <Link to="/design-code" key={id}>
               <ProjectCard
                 image={image}
                 heading={heading}
@@ -34,7 +34,7 @@ const Projects = () => {
                 index={index}
                 navigate="/protfolio"
               />
-            </a>
+            </Link>
           ))}
         </div>
 
