@@ -42,7 +42,8 @@
   @include breakpoint(lg) {
     .thumb {
       img {
-        height: 400px;
+        height: 500px;
+        object-fit: cover;
       }
     }
   }
