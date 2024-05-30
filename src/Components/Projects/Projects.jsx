@@ -25,15 +25,16 @@ const Projects = () => {
 
         <div className={`project__wrapone`}>
           {projectList.map(({ heading, id, image, subHeading }, index) => (
-            <ProjectCard
-              key={id}
-              image={image}
-              heading={heading}
-              subHeading={subHeading}
-              openLightbox={openLightbox}
-              index={index}
-              navigate="/protfolio"
-            />
+            <a href="/design-code" key={id}>
+              <ProjectCard
+                image={image}
+                heading={heading}
+                subHeading={subHeading}
+                openLightbox={openLightbox}
+                index={index}
+                navigate="/protfolio"
+              />
+            </a>
           ))}
         </div>
 
@@ -50,13 +51,13 @@ const Projects = () => {
           </Link>
         </div>
       </div>
-      {lightboxOpen && (
+      {/* {lightboxOpen && (
         <Lightbox
           images={imagesList}
           setLightboxOpen={setLightboxOpen}
           currentId={currentId}
         />
-      )}
+      )} */}
     </section>
   );
 };

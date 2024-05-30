@@ -15,14 +15,14 @@ const menuList = [
   {
     id: 2,
     path: "/",
-    section: "#about",
-    name: "About",
+    section: "#projects",
+    name: "Work",
   },
   {
     id: 3,
     path: "/",
-    section: "#projects",
-    name: "Work",
+    section: "#about",
+    name: "About",
   },
   {
     id: 4,
@@ -119,7 +119,7 @@ const Header = () => {
                     {name}
                   </HashLink>
                   {dropDown?.length && (
-                    <ul className={`sub-menu ${dropDownId === id ? "sub-menu_active":""}`}>
+                    <ul className={`sub-menu ${dropDownId === id ? "sub-menu_active" : ""}`}>
                       {dropDown.map(({ id, name, path }) => {
                         return (
                           <li key={id}>
