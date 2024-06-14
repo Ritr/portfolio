@@ -14,6 +14,9 @@ import bannerMan from "../../assets/img/banner/banner-man.png";
 import scrollDown from "../../assets/img/banner/scroll-down.png";
 import dial from "../../assets/img/banner/dial.png";
 import bnArrow from "../../assets/img/banner/bn-arrow.png";
+import logo from "../../assets/img/logo/1.png";
+import logo2 from "../../assets/img/logo/2.png";
+import logo3 from "../../assets/img/logo/3.png";
 import VideoPlay from "../Shared/VideoPlay/VideoPlay";
 
 const socalIcon = [
@@ -54,23 +57,25 @@ const Banner = () => {
 
   return (
     <section id="home">
-      <div className="container">
+      <div className="container rel">
+        <img src={logo} alt="img" className="b_log2" />
+        <img src={logo} alt="img" className="b_log3" />
         <div className="row g-4">
           <div className="col-lg-8">
             <div className="banner__content">
               <Link to={""} className="bn__currently">
                 <span className="d-block">
-                  Currently available for freelance
+                  The cerebral cortex
                 </span>
                 <span className="d-flex gap-4 align-items-center">
-                  worldwide
+                  connects to then visual horizon
                   <i className="bi bi-arrow-up-right"></i>
                 </span>
               </Link>
               <h1>
-                <span className="hone"> Creative Visual</span>
-                <span className="d-block designers" data-text="Designer">
-                  Designer
+                <span className="hone"> XiaoNao Fu<img src={logo} alt="img" className="b_log" /></span>
+                <span className="d-block designers" data-text="DESIGNTEAM">
+                  DESIGNTEAM
                 </span>
               </h1>
               {/* <div className="video__area">

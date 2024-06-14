@@ -5,7 +5,7 @@ import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
 import WorkeProcess from "../../Components/WorkeProcess/WorkeProcess";
 import ProjectCard from "../../Components/Shared/ProjectCard/ProjectCard";
 import Lightbox from "../../Components/Shared/LightBox/LightBox";
-import { ScrollRestoration } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 
 const categoryList = [
   {
@@ -51,8 +51,9 @@ const Protfolio = () => {
   }
 
   const openLightbox = (index) => {
-    setCurrentId(index);
-    setLightboxOpen(true);
+    console.log(filterProject[index].id, 'das');
+    // setCurrentId(index);
+    // setLightboxOpen(true);
   };
 
   return (
@@ -85,6 +86,7 @@ const Protfolio = () => {
             <div className="tabcontents project__wrapone">
               {filterProject.map(
                 ({ heading, id, image, subHeading }, index) => (
+                  <Link to={`/design-code?id=${id}`} key={id}>
                   <ProjectCard
                     key={id}
                     image={image}
@@ -94,6 +96,7 @@ const Protfolio = () => {
                     index={index}
                     navigate="/protfolio-details"
                   />
+                  </Link>
                 )
               )}
             </div>

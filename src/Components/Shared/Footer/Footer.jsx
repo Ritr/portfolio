@@ -29,9 +29,9 @@ const Footer = () => {
     <footer className="footer__section">
       <div className="container">
         <div className="footer__top pt-120 pb-120">
-          <div className="fl" data-aos="fade-up" data-aos-duration="1000">
+          {/* <div className="fl" data-aos="fade-up" data-aos-duration="1000">
             Get In Touch
-          </div>
+          </div> */}
           <div className="row g-4">
             <div className="col-lg-6">
               <div className="get__content">

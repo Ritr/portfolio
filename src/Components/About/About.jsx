@@ -5,6 +5,8 @@ import Experience from "./Experience";
 import Education from "./Education";
 import Skills from "./Skills";
 import AboutMe from "./AboutMe";
+import Title from "../Shared/Title/Title";
+import url from "../../assets/img/1.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -47,6 +49,13 @@ const About = () => {
     <>
       <section className="about__section pt-120 pb-120" id="about">
         <div className="container">
+          <Title
+              mainTitle="More Than 100+ Companies Trusted Us Worldwide"
+              sortTitle="Testimonial"
+          />
+          <div>
+            <img src={url} style={{ width: "100%", marginBottom: 50 }}></img>
+          </div>
           <div className="personal__head text-center">
             <img
               src={sectionStar}
