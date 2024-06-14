@@ -1,6 +1,8 @@
 import React from "react";
 import { ArrowUpRight } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
+import url2 from "../../../assets/img/2.png";
+import url3 from "../../../assets/img/3.png";
 
 const ProjectCard = ({
   image,
@@ -26,8 +28,9 @@ const ProjectCard = ({
           </span>
           <h3>{subHeading}</h3>
         </Link>
-        <div onClick={() => openLightbox(index)} className="common__icon imgc">
-          <ArrowUpRight className="icon" />
+        <div onClick={() => openLightbox(index)} className="common__icon imgc" style={{borderRadius: 8}}>
+          {/* <ArrowUpRight className="icon" /> */}
+          <img src={url3} className="icon" style={{}}></img>
         </div>
       </div>
     </div>

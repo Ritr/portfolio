@@ -1,6 +1,6 @@
 //banner
 .banner__section{
-    background: url("/src/assets/img/banner/banner-bg.png");
+    // background: url("/src/assets/img/banner/banner-bg.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -309,7 +309,28 @@
         width: 100%;
     }
 }
-
+.rel {
+    position: relative;
+}
+.b_log {
+    height: 80px;
+    margin-top: -16px;
+    margin-left: 12px;
+}
+.b_log2 {
+    position: absolute;
+    left: -150px;
+    opacity: .3;
+    width: 300px;
+    top: 30px;
+}
+.b_log3 {
+    position: absolute;
+    right: -150px;
+    opacity: .3;
+    width: 300px;
+    top: 30px;
+}
 //animation text
 
 //banner

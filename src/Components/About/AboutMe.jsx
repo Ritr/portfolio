@@ -9,7 +9,7 @@ import {
 
 import { Link } from "react-router-dom";
 import personalInfoThumb from "../../assets/img/about/personal-infothumb.png";
-import logo from "../../assets/img/logo/logo.png";
+import logo from "../../assets/img/banner/loding.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
