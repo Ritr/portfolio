@@ -18,6 +18,7 @@ import logo from "../../assets/img/logo/1.png";
 import logo2 from "../../assets/img/logo/2.png";
 import logo3 from "../../assets/img/logo/3.png";
 import VideoPlay from "../Shared/VideoPlay/VideoPlay";
+import Partner from "../../Components/Partner/Partner2";
 
 const socalIcon = [
   {
@@ -60,10 +61,10 @@ const Banner = () => {
       <div className="container rel">
         <img src={logo} alt="img" className="b_log2" />
         <img src={logo} alt="img" className="b_log3" />
-        <div className="row g-4">
+        <div className="row g-4" style={{display: "flex", justifyContent: "center"}}>
           <div className="col-lg-8">
             <div className="banner__content">
-              <Link to={""} className="bn__currently">
+              {/* <Link to={""} className="bn__currently" style={{opacity: 0}}>
                 <span className="d-block">
                   The cerebral cortex
                 </span>
@@ -71,9 +72,10 @@ const Banner = () => {
                   connects to then visual horizon
                   <i className="bi bi-arrow-up-right"></i>
                 </span>
-              </Link>
+              </Link> */}
+              <Partner />
               <h1>
-                <span className="hone"> XiaoNao Fu<img src={logo} alt="img" className="b_log" /></span>
+                <span className="hone"> VIEWX<img src={logo} alt="img" className="b_log" /></span>
                 <span className="d-block designers" data-text="DESIGNTEAM">
                   DESIGNTEAM
                 </span>
@@ -101,7 +103,7 @@ const Banner = () => {
           </div> */}
         </div>
       </div>
-      <div className="banner__leftinfo">
+      <div className="banner__leftinfo" style={{display: "none"}}>
         <div className="left__infomobile">
           <Link to={""}>
             <img src={dial} alt="img" />
@@ -117,7 +119,7 @@ const Banner = () => {
           </Link>
         </div>
       </div>
-      <div className="banner__rightinfo">
+      <div className="banner__rightinfo" style={{display: "none"}}>
         <div className="right__infoscroll">
           <Link to={""} className="scroll">
             Follow Me

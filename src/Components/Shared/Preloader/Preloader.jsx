@@ -4,10 +4,10 @@ const Preloader = () => {
   return (
     <div className="preloader__matias">
       <div className="box text-center">
-        <div className="matias mb-10">
+        <div className="matias mb-10" style={{border: "none", borderRadius: "initial"}}>
           <img src={manimg} alt="img" />
         </div>
-        <span className="fz-30 mati fw-600 text-uppercase">Matias</span>
+        {/* <span className="fz-30 mati fw-600 text-uppercase">Matias</span> */}
       </div>
     </div>
   );
