@@ -16,32 +16,32 @@ const menuList = [
     id: 2,
     path: "/",
     section: "#projects",
-    name: "Work",
+    name: "Portfolio",
   },
   {
     id: 3,
     path: "/",
     section: "#about",
-    name: "About",
+    name: "Selected Clients",
   },
-  {
-    id: 4,
-    path: "/",
-    section: "#services",
-    name: "Services",
-    dropDown: [
-      {
-        id: 1,
-        path: "/all-services",
-        name: "Services",
-      },
-      {
-        id: 2,
-        path: "/service-details",
-        name: "Service Details",
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   path: "/",
+  //   section: "#services",
+  //   name: "Services",
+  //   dropDown: [
+  //     {
+  //       id: 1,
+  //       path: "/all-services",
+  //       name: "Services",
+  //     },
+  //     {
+  //       id: 2,
+  //       path: "/service-details",
+  //       name: "Service Details",
+  //     },
+  //   ],
+  // },
   // {
   //   id: 5,
   //   path: "/",
@@ -66,11 +66,11 @@ const menuList = [
   //     },
   //   ],
   // },
-  {
-    id: 7,
-    path: "/contact",
-    name: "Contact",
-  },
+  // {
+  //   id: 7,
+  //   path: "/contact",
+  //   name: "Contact",
+  // },
 ];
 
 const Header = () => {
