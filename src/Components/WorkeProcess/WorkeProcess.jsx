@@ -41,6 +41,7 @@ const WorkeProcess = () => {
         <Title
           mainTitle="Your Dream Website In Just Few Steps"
           sortTitle="Working Process"
+          styles={{fontSize: 16, fontWeight: 400}}
         />
         <div className="row g-4">
           {processList.map(({ id, info, list, title }) => (

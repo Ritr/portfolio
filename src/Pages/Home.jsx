@@ -13,7 +13,6 @@ import MarqueeWapper from "../Components/Shared/Marquee/MarqueeWapper";
 import Awards from "../Components/About/Awards";
 import Preloader from "../Components/Shared/Preloader/Preloader";
 
-
 const Home = () => {
   const [isFetching, setIsFetching] = useState(true);
 

@@ -45,6 +45,7 @@ const Services = ({ isHeading }) => {
           <Title
             mainTitle="My Special Service For Your Business Development"
             sortTitle="Services That i Provide"
+            styles={{fontSize: 16, fontWeight: 400}}
           />
         )}
 

@@ -31,13 +31,14 @@
 .common__sub {
   font-size: 24px;
   font-family: "Caveat", cursive;
-  color: rgb(201, 243, 29);
+  // color: rgb(201, 243, 29);
+  color: #AAFF48;
   position: relative;
   display: flex;
   align-items: center;
   gap: 24px;
   justify-content: center;
-  width: 333px;
+  // width: 333px;
   margin: 0 auto 30px;
   &::after,
   &::before {
@@ -46,30 +47,42 @@
   }
   &::before {
     left: 0;
-    width: 80px;
-    height: 1px;
+    // width: 80px;
+    // height: 1px;
+    width: 6px;
+    height: 6px;
     background: var(--base);
+    transform: rotate(45deg);
   }
   &::after {
     right: 0;
-    width: 80px;
-    height: 1px;
+    // width: 80px;
+    // height: 1px;
+    width: 6px;
+    height: 6px;
     background: var(--base);
+    transform: rotate(45deg);
   }
   @include breakpoint(max-xs) {
     width: 280px;
     gap: 14px;
     &::before {
       left: 0;
-      width: 50px;
-      height: 1px;
+      // width: 50px;
+      // height: 1px;
+      width: 6px;
+      height: 6px;
       background: var(--base);
+      transform: rotate(45deg);
     }
     &::after {
       right: 0;
-      width: 50px;
-      height: 1px;
+      // width: 50px;
+      // height: 1px;
+      width: 6px;
+      height: 6px;
       background: var(--base);
+      transform: rotate(45deg);
     }
   }
 }
@@ -84,5 +97,49 @@
   @include breakpoint(max-md) {
     margin-top: 40px;
     // justify-content: flex-start;
+  }
+}
+
+.tablinks {
+  border: 1px solid var(--cusborder);
+  padding: 10px 10px;
+  border-radius: 8px;
+  max-width: 683px;
+  margin: 0 auto 60px;
+  display: flex;
+  align-items: center;
+  .nav-links {
+    button {
+      border: none;
+      background: transparent;
+      text-align: center;
+      display: inline-block;
+      font-size: 18px;
+      color: var(--pra);
+      padding: 16px 24px;
+      border-radius: 5px;
+    }
+    &:not(:last-child) {
+      border-right: 1px solid var(--cusborder);
+    }
+    &.active {
+      button {
+        background: var(--base);
+        color: var(--title);
+      }
+    }
+  }
+  @include breakpoint(max-md) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: 0 auto 40px;
+    .nav-links {
+      button {
+        display: block;
+        padding: 11px 20px;
+      }
+      border: 1px solid var(--cusborder);
+    }
   }
 }

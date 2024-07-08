@@ -4,7 +4,8 @@ import { HashLink } from "react-router-hash-link";
 import { List, ArrowRight } from "react-bootstrap-icons";
 
 import Drawer from "../Drawer/Drawer";
-import logo from "../../../assets/img/logo/logo.png";
+// import logo from "../../../assets/img/logo/logo.png";
+import logo from "../../../assets/img/banner/loding2.png";
 
 const menuList = [
   {
@@ -16,7 +17,7 @@ const menuList = [
     id: 2,
     path: "/",
     section: "#projects",
-    name: "Work",
+    name: "Portfolio",
   },
   {
     id: 3,
@@ -24,24 +25,24 @@ const menuList = [
     section: "#about",
     name: "About",
   },
-  {
-    id: 4,
-    path: "/",
-    section: "#services",
-    name: "Services",
-    dropDown: [
-      {
-        id: 1,
-        path: "/all-services",
-        name: "Services",
-      },
-      {
-        id: 2,
-        path: "/service-details",
-        name: "Service Details",
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   path: "/",
+  //   section: "#services",
+  //   name: "Services",
+  //   dropDown: [
+  //     {
+  //       id: 1,
+  //       path: "/all-services",
+  //       name: "Services",
+  //     },
+  //     {
+  //       id: 2,
+  //       path: "/service-details",
+  //       name: "Service Details",
+  //     },
+  //   ],
+  // },
   // {
   //   id: 5,
   //   path: "/",
@@ -68,7 +69,9 @@ const menuList = [
   // },
   {
     id: 7,
-    path: "/contact",
+    // path: "/contact",
+    path: "/",
+    section: "#metting",
     name: "Contact",
   },
 ];
@@ -107,8 +110,9 @@ const Header = () => {
       <div className="container">
         <div className="header-wrapper">
           <div className="main__logo">
-            <Link to={"/"} className="logo">
-              <img src={logo} alt="logo" />
+            <Link to={"/"} className="logo" style={{display: 'flex', alignItems: 'center'}}>
+              <img src={logo} alt="logo" style={{height: 26, width: 'initial'}} />
+              <span className="fz-30 mati fw-600 text-uppercase" style={{color: "#AAFF48", fontSize: 20, marginLeft: 6}}>VIEWX</span>
             </Link>
           </div>
           <ul className={`main-menu ${menuActive ? "active" : ""}`}>

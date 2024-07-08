@@ -48,15 +48,20 @@ const About = () => {
   return (
     <>
       <section className="about__section pt-120 pb-120" id="about">
+        <Title
+              mainTitle="We are VIEWX, we do UI/UX with extentsive desing experience and a portfolio of successful projects. VIEWX operates globally and is always ready to take on any design challenge."
+              sortTitle="About Us"
+              styles={{fontSize: 16, fontWeight: 400}}
+        />
         <div className="container">
           <Title
-              mainTitle="More Than 100+ Companies Trusted Us Worldwide"
-              sortTitle="Testimonial"
+              // mainTitle="More Than 100+ Companies Trusted Us Worldwide"
+              sortTitle="Selected Clients"
           />
           <div>
             <img src={url} style={{ width: "100%", marginBottom: 50 }}></img>
           </div>
-          <div className="personal__head text-center">
+          {/* <div className="personal__head text-center">
             <img
               src={sectionStar}
               className="mb-30"
@@ -67,8 +72,8 @@ const About = () => {
             <p className="descrp" data-aos="fade-up" data-aos-duration="1500">
               We are VIEWX, a brand and website design team with extensive design experience and a portfolio of successful projects. VIEWX operates globally and is always ready to take on any design challenge.
             </p>
-          </div>
-          <div className="singletab">
+          </div> */}
+          <div className="singletab" style={{display: "none"}}>
             <ul className="tablinks">
               {tabList.map(({ id, name, value }) => (
                 <li
