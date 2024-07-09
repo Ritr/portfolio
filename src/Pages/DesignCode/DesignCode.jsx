@@ -255,6 +255,11 @@ const DesignCode = () => {
                 }) : null
               }
               {
+                id == 9 ? imagesList9.map(item => {
+                  return <img src={item} key={item} style={{ width: "100%", marginTop: "20px" }}></img>
+                }) : null
+              }
+              {
                 id == 10 ? imagesList10.map(item => {
                   return <img src={item} key={item} style={{ width: "100%", marginTop: "20px" }}></img>
                 }) : null
