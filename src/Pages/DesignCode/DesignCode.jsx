@@ -43,39 +43,95 @@ import png23 from "../../assets/img/newYomi/23.png";
 const imagesList = [png1, png2, png3, png4, png5, png6, png7, png8, gif9, png9, png10,
   png11, png12, png13, png14, png15, png16, png17, png18, png19, png20, png21, png22, png23];
 
-import towgif1 from "../../assets/img/2/1.gif";
-import towpng1 from "../../assets/img/2/1.png";
-import towgif2 from "../../assets/img/2/2.gif";
-import towpng2 from "../../assets/img/2/2.png";
-import towgif3 from "../../assets/img/2/3.gif";
-import towpng3 from "../../assets/img/2/3.png";
-import towgif4 from "../../assets/img/2/4.gif";
-import towpng4 from "../../assets/img/2/4.png";
-import towpng5 from "../../assets/img/2/5.png";
-import towpng6 from "../../assets/img/2/6.png";
-import towpng7 from "../../assets/img/2/7.png";
-import towpng8 from "../../assets/img/2/8.png";
-const imagesList2 = [towgif1, towpng1, towgif2, towpng2, towgif3, towpng3, towgif4, towpng4, towpng5, towpng6, towpng7, towpng8];
-import threepng1 from "../../assets/img/3/1.jpg";
-import threepng2 from "../../assets/img/3/2.png";
-const imagesList3 = [threepng1, threepng2];
-import fourpng1 from "../../assets/img/4/1.png";
+import tow1 from "../../assets/img/2/01.png";
+import tow2 from "../../assets/img/2/02.png";
+import tow3 from "../../assets/img/2/03.png";
+import tow4 from "../../assets/img/2/04.png";
+import tow5 from "../../assets/img/2/05.png";
+import tow6 from "../../assets/img/2/06.png";
+import tow7 from "../../assets/img/2/07.png";
+import tow8 from "../../assets/img/2/08.png";
+import tow9 from "../../assets/img/2/09.png";
+import tow10 from "../../assets/img/2/10.png";
+const imagesList2 = [tow1, tow2, tow3, tow4, tow5, tow6, tow7, tow8, tow9, tow10];
+import threepng1 from "../../assets/img/3/1.gif";
+import threepng2 from "../../assets/img/3/1.png";
+import threepng3 from "../../assets/img/3/2.gif";
+import threepng4 from "../../assets/img/3/2.png";
+import threepng5 from "../../assets/img/3/3.gif";
+import threepng6 from "../../assets/img/3/3.png";
+import threepng7 from "../../assets/img/3/4.gif";
+import threepng8 from "../../assets/img/3/4.png";
+import threepng9 from "../../assets/img/3/5.png";
+import threepng10 from "../../assets/img/3/6.png";
+import threepng11 from "../../assets/img/3/7.png";
+import threepng12 from "../../assets/img/3/8.png";
+const imagesList3 = [threepng1, threepng2,threepng3,threepng4,threepng5,threepng6,threepng7,threepng8,threepng9,threepng10,threepng11,threepng12];
+import fourpng1 from "../../assets/img/4/1.jpg";
 import fourpng2 from "../../assets/img/4/2.png";
-import fourpng3 from "../../assets/img/4/3.png";
-import fourpng4 from "../../assets/img/4/4.png";
-import fourpng5 from "../../assets/img/4/5.png";
-import fourpng6 from "../../assets/img/4/6.png";
-import fourpng7 from "../../assets/img/4/7.png";
-import fourpng8 from "../../assets/img/4/8.png";
-import fourpng9 from "../../assets/img/4/9.png";
-import fourpng10 from "../../assets/img/4/10.png";
-const imagesList4 = [fourpng1, fourpng2, fourpng3, fourpng4, fourpng5, fourpng6, fourpng7, fourpng8, fourpng9, fourpng10];
+const imagesList4 = [fourpng1, fourpng2];
 import fivepng1 from "../../assets/img/5/1.jpg";
 import fivepng2 from "../../assets/img/5/2.png";
 const imagesList5 = [fivepng1, fivepng2];
 import sixpng1 from "../../assets/img/6/1.jpg";
 import sixpng2 from "../../assets/img/6/2.png";
 const imagesList6 = [sixpng1, sixpng2];
+import seven1 from "../../assets/img/7/1.png";
+import seven2 from "../../assets/img/7/2.gif";
+import seven3 from "../../assets/img/7/3.png";
+import seven4 from "../../assets/img/7/4.png";
+import seven5 from "../../assets/img/7/5.gif";
+import seven6 from "../../assets/img/7/6.gif";
+import seven7 from "../../assets/img/7/7.gif";
+import seven8 from "../../assets/img/7/8.png";
+import seven9 from "../../assets/img/7/9.png";
+import seven10 from "../../assets/img/7/10.png";
+const imagesList7 = [seven1, seven2, seven3, seven4, seven5, seven6, seven7, seven8, seven9, seven10];
+import eight1 from "../../assets/img/8/1.png";
+import eight2 from "../../assets/img/8/2.gif";
+import eight3 from "../../assets/img/8/3.png";
+import eight4 from "../../assets/img/8/4.gif";
+import eight5 from "../../assets/img/8/5.png";
+import eight6 from "../../assets/img/8/6.gif";
+import eight7 from "../../assets/img/8/7.png";
+import eight8 from "../../assets/img/8/8.gif";
+const imagesList8 = [eight1, eight2, eight3, eight4, eight5, eight6, eight7, eight8];
+import nine1 from "../../assets/img/9/1.gif";
+import nine2 from "../../assets/img/9/2.gif";
+import nine3 from "../../assets/img/9/3.gif";
+import nine4 from "../../assets/img/9/4.gif";
+import nine5 from "../../assets/img/9/5.gif";
+import nine6 from "../../assets/img/9/6.gif";
+import nine7 from "../../assets/img/9/7.gif";
+import nine8 from "../../assets/img/9/8.gif";
+import nine9 from "../../assets/img/9/9.gif";
+import nine10 from "../../assets/img/9/10.gif";
+import nine11 from "../../assets/img/9/11.gif";
+import nine12 from "../../assets/img/9/12.gif";
+import nine13 from "../../assets/img/9/13.gif";
+import nine14 from "../../assets/img/9/14.gif";
+import nine15 from "../../assets/img/9/15.gif";
+import nine16 from "../../assets/img/9/16.gif";
+import nine17 from "../../assets/img/9/17.gif";
+const imagesList9 = [nine1, nine2, nine3, nine4, nine5, nine6, nine7, nine8,nine9,nine10,nine11,nine12,nine13,nine14,nine15,nine16,nine17];
+import animation1 from "../../assets/img/10/1.gif";
+import animation2 from "../../assets/img/10/2.gif";
+import animation3 from "../../assets/img/10/3.gif";
+import animation4 from "../../assets/img/10/4.gif";
+import animation5 from "../../assets/img/10/5.gif";
+import animation6 from "../../assets/img/10/6.gif";
+import animation7 from "../../assets/img/10/7.gif";
+import animation8 from "../../assets/img/10/8.gif";
+import animation9 from "../../assets/img/10/9.gif";
+import animation10 from "../../assets/img/10/10.gif";
+import animation11 from "../../assets/img/10/11.gif";
+import animation12 from "../../assets/img/10/12.gif";
+import animation13 from "../../assets/img/10/13.gif";
+import animation14 from "../../assets/img/10/14.gif";
+import animation15 from "../../assets/img/10/15.gif";
+import animation16 from "../../assets/img/10/16.gif";
+const imagesList10 = [animation1, animation2,animation3,animation4,animation5,animation6,animation7,animation8,animation9,animation10,
+  animation11,animation12,animation13,animation14,animation15,animation16];
 const categoryList = [
   {
     id: 1,
@@ -188,6 +244,21 @@ const DesignCode = () => {
                   return <img src={item} key={item} style={{ width: "100%", marginTop: "20px" }}></img>
                 }) : null
               }
+              {
+                id == 7 ? imagesList7.map(item => {
+                  return <img src={item} key={item} style={{ width: "100%", marginTop: "20px" }}></img>
+                }) : null
+              }
+              {
+                id == 8 ? imagesList8.map(item => {
+                  return <img src={item} key={item} style={{ width: "100%", marginTop: "20px" }}></img>
+                }) : null
+              }
+              {
+                id == 10 ? imagesList10.map(item => {
+                  return <img src={item} key={item} style={{ width: "100%", marginTop: "20px" }}></img>
+                }) : null
+              }
             </div>
           </div>
         </div>
@@ -199,7 +270,7 @@ const DesignCode = () => {
           />
         )}
       </section>
-      <WorkeProcess />
+      {/* <WorkeProcess /> */}
       <ScrollRestoration />
     </>
   );

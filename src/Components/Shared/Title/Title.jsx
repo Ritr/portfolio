@@ -7,7 +7,7 @@ const Title = ({ mainTitle, sortTitle, styles = {} }) => {
         className="common__sub"
         data-aos="fade-down"
         data-aos-duration="1000"
-        style={{fontWeight: 'bold', display: 'inline-flex', padding: '0px 20px'}}
+        style={{fontWeight: 'bold', display: 'inline-flex', padding: '0px 20px', fontSize: 38}}
       >
         {sortTitle}
       </span>

@@ -51,7 +51,7 @@ const About = () => {
         <Title
               mainTitle="We are VIEWX, we do UI/UX with extentsive desing experience and a portfolio of successful projects. VIEWX operates globally and is always ready to take on any design challenge."
               sortTitle="About Us"
-              styles={{fontSize: 16, fontWeight: 400}}
+              styles={{fontSize: 30, fontWeight: 500}}
         />
         <div className="container">
           <Title

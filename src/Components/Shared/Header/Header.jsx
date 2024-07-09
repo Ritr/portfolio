@@ -141,7 +141,8 @@ const Header = () => {
           </ul>
           <div className="menu__components d-flex align-items-center">
             <Link
-              to="/contact"
+              // to="/contact"
+              to="/#metting"
               className="d-flex fw-500 cmn--btn align-items-center gap-2"
             >
               <span className="get__text">Let's Talk</span>
@@ -157,12 +158,12 @@ const Header = () => {
               <span></span>
               <span></span>
             </div>
-            <div
+            {/* <div
               onClick={() => setIsSidebarActive(true)}
               className="remove__click"
             >
               <List className="icon" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

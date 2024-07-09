@@ -64,21 +64,21 @@ const Footer = () => {
       <div className="footer__bottom cmn__bg">
         <div className="container">
           <div className="copyright">
-            <p className="white">
+            <p className="white" style={{flex: 1, textAlign: 'center'}}>
               Copyright © 2023 {" "}
               <Link to={"/"} className="base">
-                Matias.
+                VIEWX.
               </Link>{" "}
               All rights reserved.
             </p>
-            <ul className="terms">
+            {/* <ul className="terms">
               <li>
                 <a href="#0"> Terms & Condition </a>
               </li>
               <li>
                 <a href="#0"> Privacy Policy </a>
               </li>
-            </ul>
+            </ul> */}
             <a href="#about" className="toparrow">
               <i>
                 <ArrowUpShort />

@@ -14,23 +14,23 @@ const categoryList = [
   },
   {
     id: 2,
-    categoryName: "Branding-app",
-    value: "branding_app",
+    categoryName: "UI/UX",
+    value: "ui_ux",
   },
   {
     id: 3,
-    categoryName: "Los-App",
-    value: "los_app",
+    categoryName: "ICON",
+    value: "icon",
   },
   {
     id: 4,
-    categoryName: "Landing Page",
-    value: "landing_page",
+    categoryName: "ILLUSTRATION",
+    value: "illustration",
   },
   {
     id: 5,
-    categoryName: "Website",
-    value: "website",
+    categoryName: "ANIMATION",
+    value: "animation",
   },
 ];
 
@@ -90,7 +90,8 @@ const Projects = () => {
                 subHeading={subHeading}
                 openLightbox={openLightbox}
                 index={index}
-                navigate="/protfolio"
+                navigate={`/design-code?id=${id}`}
+                // navigate="/protfolio"
               />
             </Link>
           ))}

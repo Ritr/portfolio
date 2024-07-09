@@ -64,3 +64,12 @@
 
 @import "../Components/Shared/Footer/footer.scss";
 
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./MyCustomFont/MyCustomFont.woff2') format('woff2'),
+         url('./MyCustomFont/MyCustomFont.woff') format('woff'),
+         url('./MyCustomFont/MyCustomFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
