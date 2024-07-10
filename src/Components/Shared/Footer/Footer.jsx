@@ -27,7 +27,7 @@ const socalList = [
 const Footer = () => {
   return (
     <footer className="footer__section">
-      <div className="container">
+      <div className="container" style={{display: "none"}}>
         <div className="footer__top pt-120 pb-120">
           {/* <div className="fl" data-aos="fade-up" data-aos-duration="1000">
             Get In Touch

@@ -187,10 +187,8 @@ const DesignCode = () => {
 
         <div className="container">
           <div className="mt-60 mb-60">
-            <p className="mb-20"  style={{ color: "#ffffff",fontSize:"36px",fontWeight:"bold" }}>Cerebellum X Eggy Party Part three</p>
-            <p  style={{ color: "#ffffff",fontSize:"16px" }}>The following is the recent cooperation between cerebellum and Egg party visual works, there are a lot of style exploration in the process,
-              and the finalizing of the details of the style, are inseparable from the Egg video project team's great kind guidance,
-              thank you very much for the trust and support of the NetEase Egg Party project team! </p>
+            <p className="mb-20"  style={{ color: "#ffffff",fontSize:"36px",fontWeight:"bold" }}>the team VIEWX's works</p>
+            <p  style={{ color: "#ffffff",fontSize:"16px" }}>The following is the recent  visual works, there are a lot of style exploration in the process, and the finalizing of the details of the style, are inseparable from the Egg video project team's great kind guidance, thank you very much for the trust and support of the NetEase Egg Party project team!</p>
           </div>
           <div className="singletab protfolio__filter">
             {/* <ul

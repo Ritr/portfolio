@@ -49,7 +49,7 @@ const About = () => {
     <>
       <section className="about__section pt-120 pb-120" id="about">
         <Title
-              mainTitle="We are VIEWX, we do UI/UX with extentsive desing experience and a portfolio of successful projects. VIEWX operates globally and is always ready to take on any design challenge."
+              mainTitle="We are The Team VIEWX, we do UI/UX with extentsive desing experience and a portfolio of successful projects. VIEWX operates globally and is always ready to take on any design challenge."
               sortTitle="About Us"
               styles={{fontSize: 30, fontWeight: 500}}
         />
