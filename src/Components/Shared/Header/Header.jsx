@@ -17,7 +17,7 @@ const menuList = [
     id: 2,
     path: "/",
     section: "#projects",
-    name: "Protfolio",
+    name: "Portfolio",
   },
   {
     id: 3,

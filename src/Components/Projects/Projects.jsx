@@ -57,7 +57,7 @@ const Projects = () => {
       <div className="container">
         <Title
           // mainTitle={"Look at my portfolio and give me your feedback"}
-          sortTitle={"Protfolio"}
+          sortTitle={"Portfolio"}
         />
         <ul
               className="tablinks"
