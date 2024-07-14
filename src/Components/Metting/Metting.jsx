@@ -42,7 +42,7 @@ const Metting = () => {
                 </span>
                 <span className="box">
                   <span className="ptext fz-18 mb-1 d-block"> Email </span>
-                  <a> wen.b2019@gmail.com </a>
+                  <a style={{textTransform: "none"}}> wen.b2019@gmail.com </a>
                 </span>
               </div>
               <div
@@ -55,7 +55,7 @@ const Metting = () => {
                 </span>
                 <span className="box">
                   <span className="ptext fz-18 mb-1 d-block"> WhatsApp </span>
-                  <a> +8618675804029 </a>
+                  <a> +86 18675804029 </a>
                   <img src={png1} style={{marginTop:12, height: 280, borderRadius: 10, padding: 0, margin: 0 }}></img>
                 </span>
               </div>
